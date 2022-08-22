@@ -1,10 +1,25 @@
+html {
+    display: flex;
+    justify-content: center;
+}
+
 body {
     display:flex;
     flex-direction: column;
     width:fit-content;
-    height:auto;
+    height:100%;
     padding:1% 10%;
-    
+    border-left-width: 40px;
+    border-left-style:dashed;
+    border-right-width: 40px;
+    border-right-style:dashed;
+    padding-bottom: 2%;
+    border-bottom: 40px;
+    border-bottom-style: double;
+    border-bottom-color: rgb(122, 0, 0);
+    border-top: 40px;
+    border-top-style: ridge;
+    border-top-color: rgb(122, 0, 0);
 }
 
 #lesson2 {
@@ -21,4 +36,8 @@ body {
 
 button {
     font-size: x-large;
+}
+
+#nodelist {}
+    margin: 1%;
 }
